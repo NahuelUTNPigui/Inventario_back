@@ -1,0 +1,53 @@
+import{A as e,B as t,C as n,D as r,E as i,G as a,K as o,P as s,S as c,T as l,W as u,X as d,Z as f,ct as p,d as m,ft as h,h as g,i as _,it as v,j as y,n as b,q as x,rt as S,st as C,u as w,w as T,x as E}from"../chunks/K2odYGWg.js";import{t as D}from"../chunks/DdVo43Z4.js";import"../chunks/ZsEnWiqm.js";import"../chunks/BaV_c6vi.js";import{t as O}from"../chunks/Cqw2pDMP.js";import{n as k,t as A}from"../chunks/DdXQea8f.js";import{t as j}from"../chunks/Bv8qADfv.js";import{n as M,r as N,t as P}from"../chunks/CBJbliRg.js";import{s as F}from"../chunks/CaAz_aXy.js";import{t as I}from"../chunks/BjEJ0TkE.js";import{t as L}from"../chunks/BeUyT5PI.js";import{t as R}from"../chunks/BvO-2aR4.js";var z=r(`<tr><td> </td><td> </td><td> </td><td><button class="hover:cursor-pointer hover:scale-105"><!></button> <button class="hover:cursor-pointer hover:scale-105"><!></button> <button class="hover:cursor-pointer hover:scale-105"><!></button></td></tr>`),B=r(`<div class="max-h-[600px] overflow-y-auto custom-scrollbar"><table class="table table-lg w-full bg-white dark:bg-slate-900 rounded-none"><thead><tr><th><div class="flex flex-row justify-between uppercase">Correo</div></th><th><div class="flex flex-row justify-between uppercase">Nombre</div></th><th><div class="flex flex-row justify-between uppercase">Rol</div></th><th class="text-base mx-1 px-1 text-center uppercase">Acciones</th></tr></thead><tbody></tbody></table></div>`),V=r(`<p class="text-center">Sin datos</p>`);function H(e,r){v(r,!0);let d=_(r,`usuariosrows`,19,()=>[]),f=_(r,`openViewModal`,3,e=>{}),m=_(r,`openEditModal`,3,e=>{}),h=_(r,`openDelModal`,3,e=>{}),b=`py-2`;var x=i(),w=a(x),D=e=>{var n=B(),r=u(n),i=u(r),a=u(i),_=u(a),v=o(_),x=o(v);C(),p(a),p(i);var S=o(i);E(S,21,d,c,(e,n)=>{var r=z(),i=u(r);g(i,1,`text-base mx-1 px-4 ${b}`);var a=u(i,!0);p(i);var c=o(i);g(c,1,`text-base mx-1 px-4 ${b}`);var d=u(c,!0);p(c);var _=o(c);g(_,1,`text-base mx-1 px-4 ${b}`);var v=u(_,!0);p(_);var x=o(_);g(x,1,`flex text-base  items-center justify-center gap-2 px-1 ${b}`);var S=u(x);N(u(S),{size:`size-6`}),p(S);var C=o(S,2);P(u(C),{size:`size-6`}),p(C);var w=o(C,2);M(u(w),{size:`size-6`}),p(w),p(x),p(r),t((e,t)=>{T(a,s(n).correo),T(d,e),T(v,t)},[()=>`${F(s(n).name+` `+s(n).apellido,30)}`,()=>`${R(s(n).nivel)}`]),y(`click`,S,()=>f()(s(n).id)),y(`click`,C,()=>m()(s(n).id)),y(`click`,w,()=>h()(s(n).id)),l(e,r)}),p(S),p(r),p(n),t(()=>{g(i,1,`${k.tableheader}  sticky top-0 z-5 shadow-sm`),g(_,1,`
+                        ${k.tableth}   
+                    `),g(v,1,`
+                        ${k.tableth}   
+                    `),g(x,1,`
+                        ${k.tableth}   
+                    `)}),l(e,n)},O=e=>{l(e,V())};n(w,e=>{d().length>0?e(D):e(O,-1)}),l(e,x),S()}e([`click`]);var U=r(`<div class="container mx-auto py-1 px-4 max-w-7xl w-full xl:w-3/4"><div><div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-1 mb-2 border-b border-gray-300 dark:border-gray-800"><div><h1>Usuarios</h1></div></div> <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 p-1 md:p-2 bg-transparent rounded-lg"><div><input type="text" placeholder="Buscar nombre ..."/> <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 dark:text-gray-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 103 10.5a7.5 7.5 0 0013.15 6.15z"></path></svg></div> <div class="flex flex-wrap gap-2"><button><!> Nuevo</button></div></div></div></div>`);function W(e,t){v(t,!0);let n=_(t,`buscar`,15,``),r=_(t,`filterUpdate`,3,()=>{}),i=_(t,`nuevo`,3,()=>{});var a=U(),s=u(a);g(s,1,`
+            rounded-xl p-1 shadow-2xl mb-1
+            dark:bg-slate-900 bg-white
+            px-6
+        `);var c=u(s),d=u(c);g(d,1,`
+                    bg-transparent
+                    py-2
+                `),g(u(d),1,`
+                        text-3xl font-semibold 
+                        dark:text-white text-gray-900
+                `),p(d),p(c);var f=o(c,2),h=u(f);g(h,1,`
+                  flex items-center flex-1
+                  shadow-2xl
+                  rounded-full p-3
+                
+                  bg-white dark:bg-gray-900
+                  shadow-[0_4px_8px_-2px_rgba(0,0,0,0.2)]
+                  dark:shadow-[0_4px_8px_-2px_rgba(255,255,255,0.1)]
+                `);var b=u(h);m(b),g(b,1,`
+                    shadow-2xl
+                    dark:placeholder-gray-500 
+                    dark:text-gray-100
+                    placeholder-gray-600 text-gray-800
+                    
+                    w-full bg-transparent focus:outline-none
+                    border border-transparent
+                    
+                `),C(2),p(h);var x=o(h,2),T=u(x);g(T,1,`
+                        hover:cursor-pointer
+                        border rounded-full px-3 py-1 text-md flex items-center gap-1
+                        bg-white  border-gray-300  hover:bg-gray-300 dark:bg-transparent 
+                        dark:hover:bg-gray-600 dark:border-gray-600 dark:text-white
+                    `),j(u(T),{size:`size-4`}),C(),p(T),p(x),p(f),p(s),p(a),y(`input`,b,function(...e){r()?.apply(this,e)}),w(b,n),y(`click`,T,function(...e){i()?.apply(this,e)}),l(e,a),S()}e([`input`,`click`]);var G=h(L()),K=r(`<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-400"> </span>`),q=r(`<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400"> </span>`),J=r(`<span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300"> </span>`),Y=r(`<div class="
+                rounded-xl border p-4 transition-all
+                border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900
+            "><div class="flex items-start justify-between gap-3 mb-3"><div class="flex items-center gap-3 flex-1 min-w-0"><div class="flex-1 min-w-0"><p class="text-sm font-semibold text-gray-900 dark:text-gray-100 truncate"><span class="font-normal">Correo:</span> </p></div></div> <div class="flex items-center gap-2 shrink-0"><button class="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors hover:cursor-pointer hover:scale-105"><!></button> <button class="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors hover:cursor-pointer hover:scale-105"><!></button> <button class="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors hover:cursor-pointer hover:scale-105"><!></button></div></div> <div class="grid grid-cols-2 gap-x-4 gap-y-2 text-sm"><div><span class="text-xs text-gray-500 dark:text-gray-400">Nombre</span> <p class="text-gray-900 dark:text-gray-100 font-medium truncate"> </p></div> <div><span class="text-xs text-gray-500 dark:text-gray-400">Rol</span> <p class="font-medium"><!></p></div></div></div>`),X=r(`<div class="flex flex-col gap-3"></div>`);function Z(e,r){v(r,!0);let i=_(r,`usuariosrows`,19,()=>[]),a=_(r,`openViewModal`,3,e=>{}),d=_(r,`openEditModal`,3,e=>{}),f=_(r,`openDelModal`,3,e=>{});var m=X();E(m,21,i,c,(e,r)=>{var i=Y(),c=u(i),m=u(c),h=u(m),g=u(h),_=o(u(g));p(g),p(h),p(m);var v=o(m,2),b=u(v);N(u(b),{size:`size-5`}),p(b);var x=o(b,2);P(u(x),{size:`size-5`}),p(x);var S=o(x,2);M(u(S),{size:`size-5`}),p(S),p(v),p(c);var C=o(c,2),w=u(C),E=o(u(w),2),D=u(E,!0);p(E),p(w);var O=o(w,2),k=o(u(O),2),A=u(k),j=e=>{var n=K(),i=u(n,!0);p(n),t(e=>T(i,e),[()=>R(s(r).nivel)]),l(e,n)},I=e=>{var n=q(),i=u(n,!0);p(n),t(e=>T(i,e),[()=>R(s(r).nivel)]),l(e,n)},L=e=>{var n=J(),i=u(n,!0);p(n),t(e=>T(i,e),[()=>R(s(r).nivel)]),l(e,n)};n(A,e=>{s(r).nivel===1?e(j):s(r).nivel===2?e(I,1):e(L,-1)}),p(k),p(O),p(C),p(i),t(e=>{T(_,` ${s(r).correo??``}`),T(D,e)},[()=>F(s(r).name+` `+s(r).apellido,30)]),y(`click`,b,()=>a()(s(r).id)),y(`click`,x,()=>d()(s(r).id)),y(`click`,S,()=>f()(s(r).id)),l(e,i)}),p(m),l(e,m),S()}e([`click`]);var Q=r(`<!> <div><div><!></div></div> <div><!></div>`,1);function $(e,t){v(t,!0);let n=new O(`https://inventario.servidornahuel.store`),r=f(``),i=f(x([])),c=f(x([])),m=f(0);function h(){d(c,s(i),!0),s(r)!=``&&d(c,s(c).filter(e=>e.nombre.toLocaleLowerCase().includes(s(r).toLocaleLowerCase())),!0)}let _={id:``,nombre:``,apellido:``,correo:``,rol:``,nivel:0,edit:!1},y=f(x(_)),C=I(`detalleusuario`,_);function w(){C.save(_),D(`/usuarios/0`)}function T(e){let t=s(i).findIndex(t=>t.id==e);if(t!=-1){let e=s(i)[t];d(y,{id:e.id,nombre:e.name,correo:e.correo,apellido:e.apellido,nivel:e.nivel,edit:!1},!0),C.save(s(y)),D(`/usuarios/`+e.id)}}function E(e){let t=s(i).findIndex(t=>t.id==e);if(t!=-1){let e=s(i)[t];d(y,{id:e.id,nombre:e.name,correo:e.correo,apellido:e.apellido,nivel:e.nivel,edit:!0},!0),C.save(s(y)),D(`/usuarios/`+e.id)}}async function k(e){let t={active:!1};try{await n.collection(`users`).update(e,t),await M(),h(),G.default.fire(`Éxito eliminar`,`Se logró eliminar el usuario`,`success`)}catch(e){console.error(e),G.default.fire(`Error eliminar`,`No se logró eliminar el usuario`,`error`)}}function j(e){if(s(m)<1){G.default.fire(`Error permisos`,`No tienes permisos para eliminar el usuario`,`error`);return}G.default.fire({title:`Eliminar usuario`,text:`¿Seguro que deseas eliminar el usuario?`,icon:`warning`,showCancelButton:!0,confirmButtonText:`Si`,cancelButtonText:`No`}).then(async t=>{t.value&&(await k(e),G.default.fire(`Éxito eliminar`,`Se pudo eliminar el usuario con éxito`,`success`))})}async function M(){d(m,JSON.parse(localStorage.pocketbase_auth).record.nivel,!0),d(i,(await n.collection(`users`).getFullList({filter:`active = true`})).map(e=>({...e})),!0)}b(async()=>{await M(),h()}),A(e,{children:(e,t)=>{var n=Q(),i=a(n);W(i,{filterUpdate:h,nuevo:w,get buscar(){return s(r)},set buscar(e){d(r,e,!0)}});var f=o(i,2);g(f,1,`
+                hidden w-full xl:w-3/4 md:grid
+                mx-auto py-0 my-0 px-4 max-w-7xl  
+            `);var m=u(f);g(m,1,`
+                    py-0 my-0
+                    overflow-hidden rounded-xl
+                    border border-gray-300 dark:border-gray-700
+                `),H(u(m),{get usuariosrows(){return s(c)},openDelModal:j,openEditModal:E,openViewModal:T}),p(m),p(f);var _=o(f,2);g(_,1,`
+            md:hidden
+            w-full grid grid-cols-1
+            mx-auto py-3 px-4 max-w-7xl
+        `),Z(u(_),{get usuariosrows(){return s(c)},openDelModal:j,openEditModal:E,openViewModal:T}),p(_),l(e,n)},$$slots:{default:!0}}),S()}export{$ as component};

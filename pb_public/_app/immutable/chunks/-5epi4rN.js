@@ -1,0 +1,1 @@
+var e=[{id:0,nombre:`Abierto`},{id:1,nombre:`Cerrado`}];export{e as t};

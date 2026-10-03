@@ -1,0 +1,1 @@
+var e=[{id:`gen`,nombre:`General`,nivel:0},{id:`coo`,nombre:`Coordinador`,nivel:1}];function t(t){let n=``,r=e.findIndex(e=>e.nivel==t);return r!=-1&&(n=e[r].nombre),n}export{e as n,t};

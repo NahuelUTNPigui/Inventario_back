@@ -1,0 +1,57 @@
+import{A as e,B as t,D as n,G as r,K as i,P as a,Q as o,S as s,T as c,W as l,X as u,Z as d,ct as f,d as p,ft as m,h,i as g,it as _,j as v,n as y,q as b,rt as x,st as S,u as C,w,x as T}from"../chunks/K2odYGWg.js";import{t as E}from"../chunks/DdVo43Z4.js";import"../chunks/ZsEnWiqm.js";import"../chunks/BaV_c6vi.js";import{t as D}from"../chunks/Cqw2pDMP.js";import{n as O,t as k}from"../chunks/DdXQea8f.js";import{t as A}from"../chunks/Bv8qADfv.js";import{t as j}from"../chunks/Iq6uXaYU.js";import{n as M,r as N,t as P}from"../chunks/CBJbliRg.js";import{s as F}from"../chunks/CaAz_aXy.js";import{t as I}from"../chunks/BjEJ0TkE.js";import{t as L}from"../chunks/BeUyT5PI.js";var R=n(`<div class="container mx-auto py-1 px-4 max-w-7xl w-full xl:w-3/4"><div><div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-1 mb-2 border-b border-gray-300 dark:border-gray-800"><div><h1>Grupos</h1></div></div> <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 p-1 md:p-2 bg-transparent rounded-lg"><div><input type="text" placeholder="Buscar producto ..."/> <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-400 dark:text-gray-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 103 10.5a7.5 7.5 0 0013.15 6.15z"></path></svg></div> <div class="flex flex-wrap gap-2"><button><!> Nuevo</button></div></div></div></div>`);function z(e,t){_(t,!0);let n=g(t,`buscar`,15,``),r=g(t,`filterUpdate`,3,()=>{}),a=g(t,`nuevo`,3,()=>{});var o=R(),s=l(o);h(s,1,`
+            rounded-xl p-1 shadow-2xl mb-1
+            dark:bg-slate-900 bg-white
+            px-6
+        `);var u=l(s),d=l(u);h(d,1,`
+                    bg-transparent
+                    py-2
+                `),h(l(d),1,`
+                        text-3xl font-semibold 
+                        dark:text-white text-gray-900
+                `),f(d),f(u);var m=i(u,2),y=l(m);h(y,1,`
+                  flex items-center flex-1
+                  shadow-2xl
+                  rounded-full p-3
+                
+                  bg-white dark:bg-gray-900
+                  shadow-[0_4px_8px_-2px_rgba(0,0,0,0.2)]
+                  dark:shadow-[0_4px_8px_-2px_rgba(255,255,255,0.1)]
+                `);var b=l(y);p(b),h(b,1,`
+                    shadow-2xl
+                    dark:placeholder-gray-500 
+                    dark:text-gray-100
+                    placeholder-gray-600 text-gray-800
+                    
+                    w-full bg-transparent focus:outline-none
+                    border border-transparent
+                    
+                `),S(2),f(y);var w=i(y,2),T=l(w);h(T,1,`
+                        hover:cursor-pointer
+                        border rounded-full px-3 py-1 text-md flex items-center gap-1
+                        bg-white  border-gray-300  hover:bg-gray-300 dark:bg-transparent 
+                        dark:hover:bg-gray-600 dark:border-gray-600 dark:text-white
+                    `),A(l(T),{size:`size-4`}),S(),f(T),f(w),f(m),f(s),f(o),v(`input`,b,function(...e){r()?.apply(this,e)}),C(b,n),v(`click`,T,function(...e){a()?.apply(this,e)}),c(e,o),x()}e([`input`,`click`]);var B=n(`<tr><td> </td><td> </td><td> </td><td> </td><td> </td><td><button class="hover:cursor-pointer hover:scale-105"><!></button> <button class="hover:cursor-pointer hover:scale-105"><!></button> <button class="hover:cursor-pointer hover:scale-105"><!></button></td></tr>`),V=n(`<div class="max-h-[600px] overflow-y-auto custom-scrollbar"><table class="table table-lg w-full bg-white dark:bg-slate-900 rounded-none"><thead><tr><th><div class="flex flex-row justify-between uppercase">Nombre</div></th><th><div class="flex flex-row justify-between uppercase">Código</div></th><th><div class="flex flex-row justify-between uppercase">Producto</div></th><th><div class="flex flex-row justify-between uppercase">Cantidad</div></th><th><div class="flex flex-row justify-between uppercase">Unidad</div></th><th class="text-base mx-1 px-1 text-center uppercase">Acciones</th></tr></thead><tbody></tbody></table></div> <!>`,1);function H(e,n){_(n,!0);let p=g(n,`gruposrows`,19,()=>[]);g(n,`selecthash`,19,()=>({}));let m=g(n,`openViewModal`,3,e=>{}),y=g(n,`openEditModal`,3,e=>{}),b=g(n,`openDelModal`,3,e=>{});g(n,`clickTodos`,3,()=>{}),g(n,`clickFila`,3,e=>{}),g(n,`todos`,11,!1);let C=g(n,`pageSize`,15,15);function E(){u(D,1)}let D=d(1),k=o(()=>a(D)-1),A=o(()=>p().slice(a(k)*C(),a(D)*C())),I=o(()=>p().length),L=o(()=>Math.ceil(a(I)/C())),R=`py-1`;var z=V(),H=r(z),U=l(H),W=l(U),G=l(W),K=l(G),q=i(K),J=i(q),Y=i(J),X=i(Y);S(),f(G),f(W);var Z=i(W);T(Z,21,()=>a(A),s,(e,n)=>{var r=B(),o=l(r);h(o,1,`text-base mx-1 px-4 ${R}`);var s=l(o,!0);f(o);var u=i(o);h(u,1,`text-base mx-1 px-4 ${R}`);var d=l(u,!0);f(u);var p=i(u);h(p,1,`text-base mx-1 px-4 ${R}`);var g=l(p,!0);f(p);var _=i(p);h(_,1,`text-base mx-1 px-4 ${R}`);var x=l(_,!0);f(_);var S=i(_);h(S,1,`text-base mx-1 px-4 ${R}`);var C=l(S,!0);f(S);var T=i(S);h(T,1,`flex text-base  items-center justify-center gap-2 px-1 ${R}`);var E=l(T);N(l(E),{size:`size-6`}),f(E);var D=i(E,2);P(l(D),{size:`size-6`}),f(D);var O=i(D,2);M(l(O),{size:`size-6`}),f(O),f(T),f(r),t(e=>{w(s,e),w(d,a(n).codigo),w(g,`${a(n).expand&&a(n).expand.producto?a(n).expand.producto.nombre:``}`),w(x,`${a(n).cantidad}`),w(C,`${a(n).expand&&a(n).expand.unidad?a(n).expand.unidad.nombre:``}`)},[()=>`${F(a(n).nombre,30)}`]),v(`click`,E,()=>m()(a(n).id)),v(`click`,D,()=>y()(a(n).id)),v(`click`,O,()=>b()(a(n).id)),c(e,r)}),f(Z),f(U),f(H),j(i(H,2),{get rows(){return p()},get totalPaginas(){return a(L)},onChangePageSize:E,get paginaActual(){return a(D)},set paginaActual(e){u(D,e,!0)},get pageSize(){return C()},set pageSize(e){C(e)}}),t(()=>{h(W,1,`${O.tableheader}  sticky top-0 z-5 shadow-sm`),h(K,1,`
+                        ${O.tableth}   
+                    `),h(q,1,`
+                        ${O.tableth}   
+                    `),h(J,1,`
+                        ${O.tableth}   
+                    `),h(Y,1,`
+                        ${O.tableth}   
+                    `),h(X,1,`
+                        ${O.tableth}   
+                    `)}),c(e,z),x()}e([`click`]);var U=m(L()),W=n(`<div class="
+                rounded-xl border p-4 transition-all
+                border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900
+            "><div class="flex items-start justify-between gap-3 mb-3"><div class="flex items-center gap-3 flex-1 min-w-0"><div class="flex-1 min-w-0"><p class="text-sm font-semibold text-gray-900 dark:text-gray-100 truncate"><span class="font-normal">Nombre:</span> </p></div></div> <div class="flex items-center gap-2 shrink-0"><button class="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors hover:cursor-pointer hover:scale-105"><!></button> <button class="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors hover:cursor-pointer hover:scale-105"><!></button> <button class="p-1 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-lg transition-colors hover:cursor-pointer hover:scale-105"><!></button></div></div> <div class="grid grid-cols-2 sm:grid-cols-4 gap-x-4 gap-y-2 text-sm"><div><span class="text-xs text-gray-500 dark:text-gray-400">Código</span> <p class="text-gray-900 dark:text-gray-100 font-medium truncate"> </p></div> <div><span class="text-xs text-gray-500 dark:text-gray-400">Producto</span> <p class="text-gray-900 dark:text-gray-100 font-medium truncate"> </p></div> <div><span class="text-xs text-gray-500 dark:text-gray-400">Cantidad</span> <p class="text-gray-900 dark:text-gray-100 font-medium"> </p></div> <div><span class="text-xs text-gray-500 dark:text-gray-400">Unidad</span> <p class="text-gray-900 dark:text-gray-100 font-medium truncate"> </p></div></div></div>`),G=n(`<div class="flex flex-col gap-3"></div>`);function K(e,n){_(n,!0);let r=g(n,`gruposrows`,19,()=>[]);g(n,`selecthash`,19,()=>({}));let o=g(n,`openViewModal`,3,e=>{}),u=g(n,`openEditModal`,3,e=>{}),d=g(n,`openDelModal`,3,e=>{});g(n,`clickTodos`,3,()=>{}),g(n,`clickFila`,3,e=>{}),g(n,`todos`,11,!1),g(n,`pageSize`,11,15);var p=G();T(p,21,r,s,(e,n)=>{var r=W(),s=l(r),p=l(s),m=l(p),h=l(m),g=i(l(h));f(h),f(m),f(p);var _=i(p,2),y=l(_);N(l(y),{size:`size-5`}),f(y);var b=i(y,2);P(l(b),{size:`size-5`}),f(b);var x=i(b,2);M(l(x),{size:`size-5`}),f(x),f(_),f(s);var S=i(s,2),C=l(S),T=i(l(C),2),E=l(T,!0);f(T),f(C);var D=i(C,2),O=i(l(D),2),k=l(O,!0);f(O),f(D);var A=i(D,2),j=i(l(A),2),I=l(j,!0);f(j),f(A);var L=i(A,2),R=i(l(L),2),z=l(R,!0);f(R),f(L),f(S),f(r),t(e=>{w(g,` ${e??``}`),w(E,a(n).codigo),w(k,a(n).expand?.producto?.nombre||`-`),w(I,a(n).cantidad),w(z,a(n).expand?.unidad?.nombre||`-`)},[()=>F(a(n).nombre,30)]),v(`click`,y,()=>o()(a(n).id)),v(`click`,b,()=>u()(a(n).id)),v(`click`,x,()=>d()(a(n).id)),c(e,r)}),f(p),c(e,p),x()}e([`click`]);var q=n(`<!> <div><div><!></div></div> <div><!></div>`,1);function J(e,t){_(t,!0);let n=new D(`https://inventario.servidornahuel.store`),o=d(``),s=d(b([])),p=d(b([])),m={id:``,nombre:``,codigo:``,unidad:``,cliente:``,producto:``,cantidad:``,edit:!1},g=d(b(m)),v=I(`detallegrupo`,m);function S(){u(p,a(s),!0),a(o)!=``&&u(p,a(p).filter(e=>e.nombre.toLocaleLowerCase().includes(a(o).toLocaleLowerCase())),!0)}function C(){v.save(m),E(`/agrupamientos/0`)}function w(e){let t=a(s).findIndex(t=>t.id==e);if(t!=-1){let e=a(s)[t];u(g,{id:e.id,nombre:e.nombre,codigo:e.codigo,cliente:e.cliente,unidad:e.unidad,producto:e.producto,cantidad:e.cantidad,edit:!0},!0),v.save(a(g)),E(`/agrupamientos/`+e.id)}}function T(e){let t=a(s).findIndex(t=>t.id==e);if(t!=-1){let e=a(s)[t];u(g,{id:e.id,nombre:e.nombre,codigo:e.codigo,cliente:e.cliente,producto:e.producto,unidad:e.unidad,cantidad:e.cantidad,edit:!1},!0),v.save(a(g)),E(`/agrupamientos/`+e.id)}}async function O(e){if(a(s).findIndex(t=>t.id==e)!=-1){let t={active:!1};try{await n.collection(`grupos`).update(e,t),await j(),S(),U.default.fire(`Éxito eliminar`,`Se logró eliminar el grupo`,`success`)}catch{U.default.fire(`Error eliminar`,`No se logró eliminar el grupo`,`error`)}}}function A(e){U.default.fire({title:`Eliminar grupo`,text:`¿Seguro que deseas eliminar el grupo?`,icon:`warning`,showCancelButton:!0,confirmButtonText:`Si`,cancelButtonText:`No`}).then(async t=>{t.value&&(await O(e),U.default.fire(`Éxito eliminar`,`Se pudo eliminar el grupo con éxito`,`success`))})}async function j(){u(s,(await n.collection(`grupos`).getFullList({filter:`active = true`,expand:`producto,unidad`})).map(e=>({...e})),!0)}y(async()=>{await j(),S()}),k(e,{children:(e,t)=>{var n=q(),s=r(n);z(s,{filterUpdate:S,nuevo:C,get buscar(){return a(o)},set buscar(e){u(o,e,!0)}});var d=i(s,2);h(d,1,`
+                hidden w-full xl:w-3/4 md:grid
+                mx-auto py-0 my-0 px-4 max-w-7xl  
+            `);var m=l(d);h(m,1,`
+                    py-0 my-0
+                    overflow-hidden rounded-xl
+                    border border-gray-300 dark:border-gray-700
+                `),H(l(m),{get gruposrows(){return a(p)},openDelModal:A,openViewModal:T,openEditModal:w}),f(m),f(d);var g=i(d,2);h(g,1,`
+            md:hidden
+            w-full grid grid-cols-1
+            mx-auto py-3 px-4 max-w-7xl
+        `),K(l(g),{get gruposrows(){return a(p)},openDelModal:A,openViewModal:T,openEditModal:w}),f(g),c(e,n)},$$slots:{default:!0}}),x()}export{J as component};
